@@ -11,10 +11,12 @@ The tool will capture the age of a device at failure by linking the MDR and GUDI
 
 ### Technologies
 
-•	ARIMA.
+- ARIMA
+
     Although it is early to assume the right approach to the problem, ARIMA models seem to generalize well when using dates to forecast events.
 
-•	Streamlit
+- Streamlit
+
     Python library used to host web applications. Our mockups use this library to give the client a way to interactively analyze the work done and give a feedback if requirements are met.
 
 
@@ -75,6 +77,14 @@ The tool will capture the age of a device at failure by linking the MDR and GUDI
 ### Contributors
 
 Jonathan Oak
+
+### Links
+Project page on Confluence - [Link]()
+Project documentation page - [Link](https://icaglobal.github.io/s-3/)
+Project documents on Sharepoint - [Link](https://icaglobalco.sharepoint.com/sites/MDEAIProgram/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMDEAIProgram%2FShared%20Documents%2FBusiness%20Analysis%2FYear%201%2FS%2FS%2D03&viewid=8fde4734%2Dc151%2D4c78%2D83d9%2D1df238e1c082)
+UI Dynamic Mockup - [Link](https://jonathanoakica-s3-ui-mockup-app-wxdxwf.streamlit.app/)
+Jira Epic - [Link](https://icaglobal.atlassian.net/jira/software/projects/TS/boards/25?selectedIssue=TS-503)
+
 
 
 
