@@ -1,0 +1,53 @@
+:py:mod:`src.features.build_features`
+=====================================
+
+.. py:module:: src.features.build_features
+
+
+Module Contents
+---------------
+
+.. py:data:: query
+   :value: Multiline-String
+
+    .. raw:: html
+
+        <details><summary>Show Value</summary>
+
+    .. code-block:: python
+
+        """ 
+                SELECT 
+                    event_date_initiated,
+                    event_date_posted,
+                    product_code,
+                    code_info,
+                    product_quantity,
+                    k_numbers,
+                    firm_fei_number,
+                    product_description,
+                    root_cause_description,
+                    openfda,
+                    event_date_terminated,
+                    product_res_number,
+                    res_event_number
+                FROM 
+                    "fda-open-database"."recall"
+                LIMIT 10
+                """
+
+    .. raw:: html
+
+        </details>
+
+   
+
+.. py:data:: path
+   :value: 's3://jonathan-oak/s3'
+
+   
+
+.. py:data:: recall_df
+
+   
+

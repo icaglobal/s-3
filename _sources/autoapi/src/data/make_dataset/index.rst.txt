@@ -1,0 +1,39 @@
+:py:mod:`src.data.make_dataset`
+===============================
+
+.. py:module:: src.data.make_dataset
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   src.data.make_dataset.read_from_athena
+
+
+
+.. py:function:: read_from_athena(path, query)
+
+   Fetch data from Athena tables.
+
+   Using the library pyathena we set the user path to an s3 bucket.
+   Then we pass the desired query returning a dataset.
+
+   :param path: Path to Amazon s3 bucket
+   :type path: string
+   :param quert: An SQL query
+   :type quert: string
+
+   :returns: **df** -- A pandas dataframe containing the results of the query
+   :rtype: dataframe
+
+   .. rubric:: Example
+
+   read_from_athena('s3://jonathan-oak/s3', '''select * from "fda-open-database"."recall" ''')
+
+
